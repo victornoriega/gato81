@@ -1,0 +1,8 @@
+Creditos.
+Este programa fue realizado como proyecto final para la materia de Programacion de Computadoras de la Licenciatura de Ciencias de la Computacion en la Universidad de Sonora, por los alumnos:
+
+Victor Ariel Noriega Ortiz Rodriguez.
+Juan Carlos Rojas Coffey Castillo.
+
+El juego consiste en una variante del clasico Juego del Gato o Tic tac toe en el lenguaje de programacion C++. 
+Este proyecto no pudo haber sido posible sin la profesora Irene Rodriguez Castillo por ser la maestra encargada de impartir la materia y ser la encargada del proyecto en primera instancia.

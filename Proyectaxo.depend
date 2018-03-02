@@ -1,0 +1,164 @@
+# depslib dependency file v1.0
+1479969718 source:c:\users\user\downloads\gato81perfecto\ajustarventana.cpp
+	<windows.h>
+	<iostream>
+	<cstdlib>
+
+1482351342 source:c:\users\user\downloads\gato81perfecto\buscaganadores1.cpp
+
+1482351316 source:c:\users\user\downloads\gato81perfecto\buscaganadores2.cpp
+
+1479969492 source:c:\users\user\downloads\gato81perfecto\cambiacolor.cpp
+	<windows.h>
+	<iostream>
+
+1482484800 source:c:\users\user\downloads\gato81perfecto\completaganadores.cpp
+
+1481602632 source:c:\users\user\downloads\gato81perfecto\creditos.cpp
+	<iostream>
+	<fstream>
+	<conio.h>
+	"Pausa.h"
+	"MenuPrincipal.h"
+	"AjustarVentana.h"
+
+1479970011 c:\users\user\downloads\gato81perfecto\pausa.h
+
+1479970678 c:\users\user\downloads\gato81perfecto\menuprincipal.h
+
+1479970009 c:\users\user\downloads\gato81perfecto\ajustarventana.h
+
+1482353422 source:c:\users\user\downloads\gato81perfecto\ganador_gatos_medios.cpp
+
+1482483080 source:c:\users\user\downloads\gato81perfecto\gestionaalbedrio.cpp
+	<iostream>
+	"MenuPrincipal.h"
+	"gotoxy.h"
+	"ImprimeTurnos.h"
+	"CambiaColor.h"
+	<conio.h>
+
+1479970014 c:\users\user\downloads\gato81perfecto\gotoxy.h
+
+1482482648 c:\users\user\downloads\gato81perfecto\imprimeturnos.h
+
+1479970006 c:\users\user\downloads\gato81perfecto\cambiacolor.h
+
+1479969580 source:c:\users\user\downloads\gato81perfecto\gotoxy.cpp
+	<windows.h>
+
+1482365532 source:c:\users\user\downloads\gato81perfecto\imprimeganadores.cpp
+	"CambiaColor.h"
+	"gotoxy.h"
+	<iostream>
+
+1516858819 source:c:\users\user\downloads\gato81perfecto\gato.cpp
+	<iostream>
+	<cstdlib>
+	"gotoxy.h"
+	<conio.h>
+	"Gato.h"
+	"Pausa.h"
+	"CambiaColor.h"
+	"MenuPrincipal.h"
+	"CambiaColor.h"
+	"BuscaGanadores1.h"
+	"BuscaGanadores2.h"
+	"Ganador_Gatos_Medios.h"
+	"ImprimeGanadores.h"
+	"VerificaAlbedrio.h"
+	"ImprimeTurnos.h"
+	"CompletaGanadores.h"
+	"VerificaEmpates.h"
+	"GestionaAlbedrio.h"
+
+1482367216 c:\users\user\downloads\gato81perfecto\gato.h
+
+1482351624 c:\users\user\downloads\gato81perfecto\buscaganadores1.h
+
+1482351628 c:\users\user\downloads\gato81perfecto\buscaganadores2.h
+
+1482353422 c:\users\user\downloads\gato81perfecto\ganador_gatos_medios.h
+
+1482361458 c:\users\user\downloads\gato81perfecto\imprimeganadores.h
+
+1482357120 c:\users\user\downloads\gato81perfecto\verificaalbedrio.h
+
+1482484808 c:\users\user\downloads\gato81perfecto\completaganadores.h
+
+1495765362 c:\users\user\downloads\gato81perfecto\verificaempates.h
+
+1482483260 c:\users\user\downloads\gato81perfecto\gestionaalbedrio.h
+
+1519940625 source:c:\users\user\downloads\gato81perfecto\imprimeturnos.cpp
+	<iostream>
+	"gotoxy.h"
+
+1481660155 source:c:\users\user\downloads\gato81perfecto\instructivo.cpp
+	<iostream>
+	<fstream>
+	<conio.h>
+	"Pausa.h"
+	"MenuPrincipal.h"
+	"AjustarVentana.h"
+
+1481317402 source:c:\users\user\downloads\gato81perfecto\main.cpp
+	<iostream>
+	<windows.h>
+	"Portada.h"
+
+1479970798 c:\users\user\downloads\gato81perfecto\portada.h
+
+1481602748 source:c:\users\user\downloads\gato81perfecto\menuprincipal.cpp
+	<cstdlib>
+	<iostream>
+	<conio.h>
+	<windows.h>
+	"gotoxy.h"
+	"OcultarCursor.h"
+	"Pausa.h"
+	"Tablero.h"
+	"Instructivo.h"
+	"Creditos.h"
+
+1479970362 c:\users\user\downloads\gato81perfecto\ocultarcursor.h
+
+1479970872 c:\users\user\downloads\gato81perfecto\tablero.h
+
+1481505979 c:\users\user\downloads\gato81perfecto\instructivo.h
+
+1481602544 c:\users\user\downloads\gato81perfecto\creditos.h
+
+1479970188 source:c:\users\user\downloads\gato81perfecto\ocultarcursor.cpp
+	<windows.h>
+	<conio.h>
+
+1479969368 source:c:\users\user\downloads\gato81perfecto\pausa.cpp
+	<iostream>
+	<cstdlib>
+
+1519940921 source:c:\users\user\downloads\gato81perfecto\portada.cpp
+	<cstdlib>
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<limits>
+	"OcultarCursor.h"
+	"AjustarVentana.h"
+	"CambiaColor.h"
+	"Pausa.h"
+	"gotoxy.h"
+	"MenuPrincipal.h"
+
+1482367468 source:c:\users\user\downloads\gato81perfecto\tablero.cpp
+	<iostream>
+	<cstdlib>
+	<windows.h>
+	"gotoxy.h"
+	"AjustarVentana.h"
+	"Gato.h"
+
+1482360050 source:c:\users\user\downloads\gato81perfecto\verificaempates.cpp
+
+1482356750 source:c:\users\user\downloads\gato81perfecto\verificalibrealbedrio.cpp
+

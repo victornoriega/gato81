@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proyectaxo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Proyectaxo" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="AjustarVentana.cpp" />
+		<Unit filename="AjustarVentana.h" />
+		<Unit filename="BuscaGanadores1.cpp" />
+		<Unit filename="BuscaGanadores1.h" />
+		<Unit filename="BuscaGanadores2.cpp" />
+		<Unit filename="BuscaGanadores2.h" />
+		<Unit filename="CambiaColor.cpp" />
+		<Unit filename="CambiaColor.h" />
+		<Unit filename="CompletaGanadores.cpp" />
+		<Unit filename="CompletaGanadores.h" />
+		<Unit filename="Creditos.cpp" />
+		<Unit filename="Creditos.h" />
+		<Unit filename="Creditos.txt" />
+		<Unit filename="Ganador_Gatos_Medios.cpp" />
+		<Unit filename="Ganador_Gatos_Medios.h" />
+		<Unit filename="Gato.cpp" />
+		<Unit filename="Gato.h" />
+		<Unit filename="GestionaAlbedrio.cpp" />
+		<Unit filename="GestionaAlbedrio.h" />
+		<Unit filename="ImprimeGanadores.cpp" />
+		<Unit filename="ImprimeGanadores.h" />
+		<Unit filename="ImprimeTurnos.cpp" />
+		<Unit filename="ImprimeTurnos.h" />
+		<Unit filename="Instructivo.cpp" />
+		<Unit filename="MenuPrincipal.cpp" />
+		<Unit filename="MenuPrincipal.h" />
+		<Unit filename="OcultarCursor.cpp" />
+		<Unit filename="OcultarCursor.h" />
+		<Unit filename="Pausa.cpp" />
+		<Unit filename="Pausa.h" />
+		<Unit filename="Portada.h" />
+		<Unit filename="Reglas-Gato81.txt" />
+		<Unit filename="Tablero.cpp" />
+		<Unit filename="Tablero.h" />
+		<Unit filename="VerificaAlbedrio.h" />
+		<Unit filename="VerificaEmpates.cpp" />
+		<Unit filename="VerificaEmpates.h" />
+		<Unit filename="VerificaLibreAlbedrio.cpp" />
+		<Unit filename="gotoxy.cpp" />
+		<Unit filename="gotoxy.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="portada.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

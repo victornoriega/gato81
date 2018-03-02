@@ -1,0 +1,88 @@
+# Project: Proyectaxo
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o AjustarVentana.o CambiaColor.o gotoxy.o MenuPrincipal.o OcultarCursor.o Pausa.o portada.o Tablero.o Gato.o Instructivo.o Creditos.o BuscaGanadores1.o BuscaGanadores2.o Ganador_Gatos_Medios.o VerificaLibreAlbedrio.o VerificaEmpates.o ImprimeGanadores.o ImprimeTurnos.o GestionaAlbedrio.o CompletaGanadores.o
+LINKOBJ  = main.o AjustarVentana.o CambiaColor.o gotoxy.o MenuPrincipal.o OcultarCursor.o Pausa.o portada.o Tablero.o Gato.o Instructivo.o Creditos.o BuscaGanadores1.o BuscaGanadores2.o Ganador_Gatos_Medios.o VerificaLibreAlbedrio.o VerificaEmpates.o ImprimeGanadores.o ImprimeTurnos.o GestionaAlbedrio.o CompletaGanadores.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Proyectaxo.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+AjustarVentana.o: AjustarVentana.cpp
+	$(CPP) -c AjustarVentana.cpp -o AjustarVentana.o $(CXXFLAGS)
+
+CambiaColor.o: CambiaColor.cpp
+	$(CPP) -c CambiaColor.cpp -o CambiaColor.o $(CXXFLAGS)
+
+gotoxy.o: gotoxy.cpp
+	$(CPP) -c gotoxy.cpp -o gotoxy.o $(CXXFLAGS)
+
+MenuPrincipal.o: MenuPrincipal.cpp
+	$(CPP) -c MenuPrincipal.cpp -o MenuPrincipal.o $(CXXFLAGS)
+
+OcultarCursor.o: OcultarCursor.cpp
+	$(CPP) -c OcultarCursor.cpp -o OcultarCursor.o $(CXXFLAGS)
+
+Pausa.o: Pausa.cpp
+	$(CPP) -c Pausa.cpp -o Pausa.o $(CXXFLAGS)
+
+portada.o: portada.cpp
+	$(CPP) -c portada.cpp -o portada.o $(CXXFLAGS)
+
+Tablero.o: Tablero.cpp
+	$(CPP) -c Tablero.cpp -o Tablero.o $(CXXFLAGS)
+
+Gato.o: Gato.cpp
+	$(CPP) -c Gato.cpp -o Gato.o $(CXXFLAGS)
+
+Instructivo.o: Instructivo.cpp
+	$(CPP) -c Instructivo.cpp -o Instructivo.o $(CXXFLAGS)
+
+Creditos.o: Creditos.cpp
+	$(CPP) -c Creditos.cpp -o Creditos.o $(CXXFLAGS)
+
+BuscaGanadores1.o: BuscaGanadores1.cpp
+	$(CPP) -c BuscaGanadores1.cpp -o BuscaGanadores1.o $(CXXFLAGS)
+
+BuscaGanadores2.o: BuscaGanadores2.cpp
+	$(CPP) -c BuscaGanadores2.cpp -o BuscaGanadores2.o $(CXXFLAGS)
+
+Ganador_Gatos_Medios.o: Ganador_Gatos_Medios.cpp
+	$(CPP) -c Ganador_Gatos_Medios.cpp -o Ganador_Gatos_Medios.o $(CXXFLAGS)
+
+VerificaLibreAlbedrio.o: VerificaLibreAlbedrio.cpp
+	$(CPP) -c VerificaLibreAlbedrio.cpp -o VerificaLibreAlbedrio.o $(CXXFLAGS)
+
+VerificaEmpates.o: VerificaEmpates.cpp
+	$(CPP) -c VerificaEmpates.cpp -o VerificaEmpates.o $(CXXFLAGS)
+
+ImprimeGanadores.o: ImprimeGanadores.cpp
+	$(CPP) -c ImprimeGanadores.cpp -o ImprimeGanadores.o $(CXXFLAGS)
+
+ImprimeTurnos.o: ImprimeTurnos.cpp
+	$(CPP) -c ImprimeTurnos.cpp -o ImprimeTurnos.o $(CXXFLAGS)
+
+GestionaAlbedrio.o: GestionaAlbedrio.cpp
+	$(CPP) -c GestionaAlbedrio.cpp -o GestionaAlbedrio.o $(CXXFLAGS)
+
+CompletaGanadores.o: CompletaGanadores.cpp
+	$(CPP) -c CompletaGanadores.cpp -o CompletaGanadores.o $(CXXFLAGS)

@@ -1,0 +1,38 @@
+Reglas del Juego del Gato 81 (#):
+
+El juego es una variante del clasico juego del Gato (#), donde el tablero es un Tablero 3x3x3x3.
+
+El jugador 1 se representara con una X.
+El jugador 2 se representara con un O.
+
+Dividido en 9 casillas, las cuales son coordenadas que representaremos como:
+
+				NW | N | NE
+				------------		
+				MW | M | ME 			
+				------------			
+				SW | S | SE			
+
+Parte superior: NW (North West), N (North), NE (North East)
+Parte media: MW (Mid West), M (Mid), ME (Mid East)
+Parte inferior: SW (South West), S (South), SE (South East)
+
+Dentro de cada coordenada se dibujara un Gato (#), el cual dependiendo de la posicion donde el jugador dibuje, 
+mandara directamente al jugador rival a dicha coordenada en el Gato mas grande.
+
+				# | # | #
+				----------
+				# | # | #
+				----------
+				# | # | #
+
+El jugador que logre llenar una linea vertical, horizontal o diagonal con su simbolo podra reclamar la casilla del Gato mas grande con su simbolo. 
+Para ganar el jugador también tiene que lograr la linea vertical, horizontal o diagonal en el Gato mas grande. 
+En caso de que la casilla a donde el jugador rival te envio este ocupada por un simbolo en el Gato mas grande, se podra jugar en cualquier lugar del gato.
+
+	# | # | #		X | # | #		X | # | #
+	----------		----------		----------
+	# | # | #		X | # | #		# | X | #
+	----------		----------		----------
+	X | X | X		X | # | #		# | # | X
+
